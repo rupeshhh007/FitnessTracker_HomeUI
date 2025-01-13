@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class BarGraphData {
   final data = [
     const BarGraphModel(
-        label: "Activity Level",
+        label: "Activity-Level",
         color: Color.fromARGB(255, 186, 254, 90),
         graph: [
           GraphModel(x: 0, y: 15),
@@ -24,7 +24,7 @@ class BarGraphData {
       GraphModel(x: 5, y: 7),
     ]),
     const BarGraphModel(
-        label: "Hydration Level",
+        label: "Hydration-Level",
         color: Color(0xFF20AEF3),
         graph: [
           GraphModel(x: 0, y: 7),
